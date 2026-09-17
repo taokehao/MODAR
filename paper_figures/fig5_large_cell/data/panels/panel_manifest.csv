@@ -1,0 +1,6 @@
+figure,panel,plot_title,csv_path,source_table,row_count,scope,notes
+Fig. 5,a,Full-test Top-1 by structure size,fig5a_full_test_top1_size_bins.csv,data/full_test_size_bins.csv,8,"Full test N=33,944; ≤20 n=30,159; >20 n=3,785",
+Fig. 5,b,Full-test Top-20 by structure size,fig5b_full_test_top20_size_bins.csv,data/full_test_size_bins.csv,8,"Full test N=33,944; ≤20 n=30,159; >20 n=3,785",
+Fig. 5,d,Large-cell specialist comparison: lattice-free,fig5d_lattice_free_top1_top20.csv,data/bigcell_same_subset.csv,6,Same fixed >20-site subset N=500; three methods,
+Fig. 5,e,Large-cell specialist comparison: known lattice,fig5e_known_lattice_top1_top20.csv,data/bigcell_same_subset.csv,6,Same fixed >20-site subset N=500; three methods,
+Fig. 5,f,Large-cell specialist gain across Top-k,fig5f_specialist_gain_across_topk.csv,data/bigcell_gains.csv,20,Same fixed >20-site subset N=500; within-subset percentage-point gains,

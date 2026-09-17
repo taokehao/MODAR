@@ -1,0 +1,11 @@
+lattice_key,lattice_label,condition_order,condition_key,condition_label,composition_rate_percent,success_rate_percent,n_records,n_candidates
+lattice_free,Lattice-free,0,pxrd,PXRD,24.781994,3.765025,33944,100
+lattice_free,Lattice-free,1,pxrd_neutron,PXRD + ND,31.560806,7.845275,33944,100
+lattice_free,Lattice-free,2,pxrd_xrf,PXRD + XRF,98.889347,83.248881,33944,100
+lattice_free,Lattice-free,3,pxrd_neutron_xrf,PXRD + ND + XRF,98.859887,83.994226,33944,100
+lattice_free,Lattice-free,4,pxrd_formula,Formula reference,100.000000,85.891468,33944,100
+known_lattice,Known lattice,0,pxrd,PXRD,32.114659,7.102875,33944,100
+known_lattice,Known lattice,1,pxrd_neutron,PXRD + ND,39.441433,15.531464,33944,100
+known_lattice,Known lattice,2,pxrd_xrf,PXRD + XRF,99.781994,89.403135,33944,100
+known_lattice,Known lattice,3,pxrd_neutron_xrf,PXRD + ND + XRF,99.776102,90.378270,33944,100
+known_lattice,Known lattice,4,pxrd_formula,Formula reference,100.000000,89.541598,33944,100

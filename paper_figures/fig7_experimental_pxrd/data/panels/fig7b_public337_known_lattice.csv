@@ -1,0 +1,6 @@
+condition_key,condition_label,n,protocol,top1,top1_ci_low,top1_ci_high,top20,top20_ci_low,top20_ci_high,oracle,small_n,small_top1,small_top20,small_oracle
+pxrd,PXRD,337,chgnet_union_mace,0,0,0,1,0,3,2,122,0,1,2
+pxrd_neutron,PXRD + ND,337,chgnet_union_mace,0,0,0,17,10,25,19,122,0,16,18
+pxrd_xrf,PXRD + XRF,337,chgnet_union_mace,70,56,85,89,73,105,92,122,53,67,70
+pxrd_neutron_xrf,PXRD + ND + XRF,337,chgnet_union_mace,75,60,90,86,70,102,88,122,59,65,67
+pxrd_formula,Formula reference,337,unrefined_fusion,73,,,86,,,92,,,,

@@ -1,0 +1,6 @@
+figure,panel,plot_title,csv_path,source_table,row_count,scope,notes
+Fig. 4,b,Paired neutron gains with 95% bootstrap CI,fig4b_paired_neutron_gains.csv,data/paired_neutron_effects.csv,4,"Aligned evaluation subset N=10,000; 2,000 paired bootstrap resamples",
+Fig. 4,c,Neutron gain over PXRD by crystal system,fig4c_neutron_gain_by_crystal_system.csv,data/crystal_system_neutron_effects.csv,14,Aligned 10k subset; subgroup point estimates without subgroup CI,
+Fig. 4,d,Incremental neutron gain given XRF by crystal system,fig4d_neutron_given_xrf_by_crystal_system.csv,data/crystal_system_neutron_effects.csv,14,Aligned 10k subset; subgroup point estimates without subgroup CI,
+Fig. 4,e,PXRD baseline versus neutron gain,fig4e_pxrd_baseline_vs_neutron_gain.csv,data/crystal_system_neutron_effects.csv,14,Aligned 10k subset; bubble size uses subgroup n,
+Fig. 4,f,Neutron-beneficiary summary,fig4f_neutron_beneficiary_summary.csv,data/crystal_system_neutron_effects.csv; data/paired_neutron_effects.csv,8,Top three systems per lattice mode plus aggregate paired ND|XRF effects,

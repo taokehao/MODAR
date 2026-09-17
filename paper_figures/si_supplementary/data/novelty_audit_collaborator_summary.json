@@ -1,0 +1,17 @@
+{
+  "set": "collaborator keep-10 (noisy-exp panel behind Figure 7)",
+  "n": 10,
+  "library_entries": 3456202,
+  "max_per_formula_checked": 500,
+  "structure_present_in_library": 9,
+  "structure_present_rate": 0.9,
+  "retrieval_top1": 2,
+  "retrieval_top50": 3,
+  "matcher": {
+    "ltol": 0.3,
+    "stol": 0.5,
+    "angle_tol": 10.0,
+    "primitive_cell": true
+  },
+  "note": "structure_present is a lower bound: exact reduced-formula match only, capped at 500 same-formula library entries per target."
+}

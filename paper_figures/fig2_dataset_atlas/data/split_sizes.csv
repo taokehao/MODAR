@@ -1,0 +1,4 @@
+split,count,fraction_pct
+train,3456202,98.070958
+valid,34039,0.965869
+test,33944,0.963173

@@ -1,0 +1,17 @@
+id,display_name,family_key,family_label,model,model_label,lattice,lattice_label,condition_order,condition,condition_label,best_k,bucket,t1,t10,t50,composition_match,n_candidates
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,free,Lattice-free,1,pxrd,PXRD,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,free,Lattice-free,2,pxrd_neutron,PXRD + ND,2,T10,0,1,1,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,free,Lattice-free,3,pxrd_xrf,PXRD + XRF,1,T1,1,1,1,1,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,free,Lattice-free,4,pxrd_neutron_xrf,PXRD + ND + XRF,1,T1,1,1,1,1,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,known,Known lattice,1,pxrd,PXRD,2,T10,0,1,1,1,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,known,Known lattice,2,pxrd_neutron,PXRD + ND,1,T1,1,1,1,1,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,known,Known lattice,3,pxrd_xrf,PXRD + XRF,1,T1,1,1,1,1,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,noisy,Noisy-exp,known,Known lattice,4,pxrd_neutron_xrf,PXRD + ND + XRF,1,T1,1,1,1,1,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,free,Lattice-free,1,pxrd,PXRD,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,free,Lattice-free,2,pxrd_neutron,PXRD + ND,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,free,Lattice-free,3,pxrd_xrf,PXRD + XRF,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,free,Lattice-free,4,pxrd_neutron_xrf,PXRD + ND + XRF,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,known,Known lattice,1,pxrd,PXRD,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,known,Known lattice,2,pxrd_neutron,PXRD + ND,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,known,Known lattice,3,pxrd_xrf,PXRD + XRF,,miss,0,0,0,0,100
+LiCoO2,LiCoO2,layered_oxide,Layered oxide,clean,Clean,known,Known lattice,4,pxrd_neutron_xrf,PXRD + ND + XRF,,miss,0,0,0,0,100

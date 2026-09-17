@@ -1,0 +1,587 @@
+{
+  "protocol_note": "RealPXRD-Solver (arXiv:2603.00965) CNRS benchmark: inorganic, refined CIF, primitive cell <= 20 atoms, formula + unit cell given, up to 20 candidates. Their reported set size is 126; ours is derived from our own 337-entry pre-registered set with the same selection rules applied.",
+  "max_sites": 20,
+  "subset_sizes": {
+    "all_337": 337,
+    "CNRS_all": 267,
+    "CNRS_realpxrd_protocol": 50,
+    "COD_realpxrd_protocol": 11,
+    "all_realpxrd_protocol": 69
+  },
+  "tables": {
+    "known_lattice": {
+      "pxrd": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        }
+      },
+      "pxrd_neutron": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        }
+      },
+      "pxrd_xrf": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 13,
+          "rr@1": 24,
+          "samp@10": 28,
+          "rr@10": 30,
+          "samp@20": 30,
+          "rr@20": 33,
+          "samp@50": 32,
+          "rr@50": 33
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 6,
+          "rr@1": 14,
+          "samp@10": 18,
+          "rr@10": 17,
+          "samp@20": 19,
+          "rr@20": 20,
+          "samp@50": 19,
+          "rr@50": 20
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 5,
+          "rr@1": 8,
+          "samp@10": 13,
+          "rr@10": 11,
+          "samp@20": 13,
+          "rr@20": 13,
+          "samp@50": 13,
+          "rr@50": 13
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 1,
+          "rr@1": 2,
+          "samp@10": 3,
+          "rr@10": 4,
+          "samp@20": 3,
+          "rr@20": 4,
+          "samp@50": 4,
+          "rr@50": 4
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 7,
+          "rr@1": 11,
+          "samp@10": 17,
+          "rr@10": 17,
+          "samp@20": 17,
+          "rr@20": 19,
+          "samp@50": 19,
+          "rr@50": 19
+        }
+      },
+      "pxrd_neutron_xrf": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 16,
+          "rr@1": 29,
+          "samp@10": 28,
+          "rr@10": 33,
+          "samp@20": 31,
+          "rr@20": 33,
+          "samp@50": 33,
+          "rr@50": 33
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 8,
+          "rr@1": 16,
+          "samp@10": 16,
+          "rr@10": 19,
+          "samp@20": 18,
+          "rr@20": 19,
+          "samp@50": 19,
+          "rr@50": 19
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 6,
+          "rr@1": 10,
+          "samp@10": 9,
+          "rr@10": 12,
+          "samp@20": 11,
+          "rr@20": 12,
+          "samp@50": 12,
+          "rr@50": 12
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 2,
+          "rr@1": 3,
+          "samp@10": 3,
+          "rr@10": 3,
+          "samp@20": 3,
+          "rr@20": 3,
+          "samp@50": 3,
+          "rr@50": 3
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 9,
+          "rr@1": 14,
+          "samp@10": 14,
+          "rr@10": 17,
+          "samp@20": 16,
+          "rr@20": 17,
+          "samp@50": 17,
+          "rr@50": 17
+        }
+      },
+      "pxrd_formula": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 26,
+          "rr@1": 31,
+          "samp@10": 40,
+          "rr@10": 38,
+          "samp@20": 40,
+          "rr@20": 42,
+          "samp@50": 42,
+          "rr@50": 44
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 14,
+          "rr@1": 17,
+          "samp@10": 23,
+          "rr@10": 21,
+          "samp@20": 23,
+          "rr@20": 23,
+          "samp@50": 24,
+          "rr@50": 25
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 10,
+          "rr@1": 10,
+          "samp@10": 16,
+          "rr@10": 13,
+          "samp@20": 16,
+          "rr@20": 14,
+          "samp@50": 16,
+          "rr@50": 16
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 4,
+          "rr@1": 3,
+          "samp@10": 4,
+          "rr@10": 3,
+          "samp@20": 4,
+          "rr@20": 4,
+          "samp@50": 5,
+          "rr@50": 4
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 16,
+          "rr@1": 15,
+          "samp@10": 25,
+          "rr@10": 20,
+          "samp@20": 25,
+          "rr@20": 23,
+          "samp@50": 26,
+          "rr@50": 25
+        }
+      }
+    },
+    "lattice_free": {
+      "pxrd": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        }
+      },
+      "pxrd_neutron": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 0,
+          "rr@50": 0
+        }
+      },
+      "pxrd_xrf": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 2,
+          "rr@1": 7,
+          "samp@10": 6,
+          "rr@10": 9,
+          "samp@20": 8,
+          "rr@20": 12,
+          "samp@50": 11,
+          "rr@50": 12
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 1,
+          "rr@1": 4,
+          "samp@10": 2,
+          "rr@10": 5,
+          "samp@20": 3,
+          "rr@20": 6,
+          "samp@50": 4,
+          "rr@50": 6
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 1,
+          "rr@1": 4,
+          "samp@10": 2,
+          "rr@10": 5,
+          "samp@20": 3,
+          "rr@20": 5,
+          "samp@50": 4,
+          "rr@50": 5
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 0,
+          "rr@10": 0,
+          "samp@20": 0,
+          "rr@20": 0,
+          "samp@50": 1,
+          "rr@50": 0
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 1,
+          "rr@1": 5,
+          "samp@10": 3,
+          "rr@10": 6,
+          "samp@20": 5,
+          "rr@20": 8,
+          "samp@50": 7,
+          "rr@50": 8
+        }
+      },
+      "pxrd_neutron_xrf": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 1,
+          "rr@1": 9,
+          "samp@10": 7,
+          "rr@10": 11,
+          "samp@20": 10,
+          "rr@20": 11,
+          "samp@50": 13,
+          "rr@50": 13
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 0,
+          "rr@1": 4,
+          "samp@10": 1,
+          "rr@10": 5,
+          "samp@20": 4,
+          "rr@20": 5,
+          "samp@50": 6,
+          "rr@50": 7
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 0,
+          "rr@1": 3,
+          "samp@10": 1,
+          "rr@10": 4,
+          "samp@20": 2,
+          "rr@20": 4,
+          "samp@50": 4,
+          "rr@50": 4
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 1,
+          "rr@10": 0,
+          "samp@20": 1,
+          "rr@20": 0,
+          "samp@50": 1,
+          "rr@50": 0
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 0,
+          "rr@1": 4,
+          "samp@10": 4,
+          "rr@10": 6,
+          "samp@20": 5,
+          "rr@20": 6,
+          "samp@50": 7,
+          "rr@50": 6
+        }
+      },
+      "pxrd_formula": {
+        "all_337": {
+          "n": 337,
+          "samp@1": 6,
+          "rr@1": 14,
+          "samp@10": 20,
+          "rr@10": 23,
+          "samp@20": 23,
+          "rr@20": 26,
+          "samp@50": 26,
+          "rr@50": 27
+        },
+        "CNRS_all": {
+          "n": 267,
+          "samp@1": 3,
+          "rr@1": 9,
+          "samp@10": 10,
+          "rr@10": 15,
+          "samp@20": 13,
+          "rr@20": 15,
+          "samp@50": 15,
+          "rr@50": 16
+        },
+        "CNRS_realpxrd_protocol": {
+          "n": 50,
+          "samp@1": 1,
+          "rr@1": 6,
+          "samp@10": 7,
+          "rr@10": 11,
+          "samp@20": 9,
+          "rr@20": 11,
+          "samp@50": 11,
+          "rr@50": 12
+        },
+        "COD_realpxrd_protocol": {
+          "n": 11,
+          "samp@1": 0,
+          "rr@1": 0,
+          "samp@10": 2,
+          "rr@10": 0,
+          "samp@20": 2,
+          "rr@20": 1,
+          "samp@50": 2,
+          "rr@50": 1
+        },
+        "all_realpxrd_protocol": {
+          "n": 69,
+          "samp@1": 3,
+          "rr@1": 8,
+          "samp@10": 12,
+          "rr@10": 14,
+          "samp@20": 14,
+          "rr@20": 17,
+          "samp@50": 17,
+          "rr@50": 18
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+_target_: app.model.flow.CSPFlow
+align: false
+time_dim: 256
+latent_dim: 512
+cost_coord: 100.
+cost_lattice: 1.
+timesteps: 1000
+pretrained_xrd: None
+freeze: false
+
+xrd_encoder:
+  _target_: app.model.bert.BertModel
+  output_dim: ${model.latent_dim}
+  max_seq_len: 180
+  encoder_layers: 2
+  encoder_embed_dim: 32
+  encoder_ffn_embed_dim: 32
+  encoder_attention_heads: 4
+  dropout: 0.1
+  emb_dropout: 0.1
+  attention_dropout: 0.1
+  activation_dropout: 0.0
+  pooler_dropout: 0.0
+  activation_fn: "gelu"
+  pooler_activation_fn: "tanh"
+  post_ln: False
+
+decoder: 
+  _target_: app.model.cspnet_xrd.CSPNet
+  hidden_dim: 512
+  latent_dim: ${model.latent_dim}
+  max_atoms: 100
+  num_layers: 6
+  act_fn: silu
+  dis_emb: sin
+  num_freqs: 128
+  ln: true
+  ip: true

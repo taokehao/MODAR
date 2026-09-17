@@ -1,0 +1,5 @@
+model,model_label,lattice,lattice_label,condition_order,condition,condition_label,n,n_t1,n_t10,n_t50,t1_ids,t10_ids,t50_ids
+noisy,Noisy-exp,known,Known lattice,1,pxrd,PXRD,10,0,1,1,,LiCoO2,LiCoO2
+noisy,Noisy-exp,known,Known lattice,2,pxrd_neutron,PXRD + ND,10,1,1,1,LiCoO2,LiCoO2,LiCoO2
+noisy,Noisy-exp,known,Known lattice,3,pxrd_xrf,PXRD + XRF,10,2,2,3,LiCoO2;BiClO,LiCoO2;BiClO,LiCoO2;NaCoO2;BiClO
+noisy,Noisy-exp,known,Known lattice,4,pxrd_neutron_xrf,PXRD + ND + XRF,10,3,4,4,LiCoO2;NaCoO2;BiClO,LiCoO2;NaCoO2;BiClO;SiS2,LiCoO2;NaCoO2;BiClO;SiS2

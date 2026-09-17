@@ -1,0 +1,6 @@
+figure,panel,plot_title,csv_path,source_table,row_count,scope,notes
+Fig. 7,a,CNRS/RRUFF versus RealPXRD-Solver,fig7a_rps_head_to_head.csv,crystal_language/eval_results/chgnet/rps_*_bootstrap_refined.json,4,CNRS n=126; RRUFF n=269; formula + known lattice; refine-before-match,ours is CHGNet ∪ MACE refine; CIs are paired bootstrap on this work
+Fig. 7,b,Public 337 known-lattice spectroscopic ladder,fig7b_public337_known_lattice.csv,crystal_language/eval_results/chgnet/ladder_public_si_report_spec_cm.json,5,N=337 measured Cu Kα; ND/XRF CIF-simulated; no formula on spectroscopic rungs,"counts, not an accuracy rate; formula reference is unrefined fusion"
+Fig. 7,b,Public 337 known-lattice paired steps,fig7b_paired_steps.csv,crystal_language/eval_results/chgnet/ladder_public_si_report_spec_cm.json,2,Paired Top-1 increments on the same 337 records,+XRF → +ND+XRF interval includes 0
+Fig. 7,c,LiCoO2 known-lattice ranks,fig7c_licoo2_known_ranks.csv,data/panels/fig7c_licoo2_ranks.csv,8,One laboratory case; clean versus noisy-exp; known lattice,Noisy PXRD is rank 2; +ND is Top-1; ND is CIF-simulated
+Fig. 7,c,LiCoO2 experimental PXRD versus simulated ND,fig7c_licoo2_spectra.csv,data/licoo2_spectra.csv,510,Keep-set LiCoO2; measured Bruker RAW vs CIF-simulated ND,PXRD is experimental; ND is simulated from the paired CIF

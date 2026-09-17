@@ -1,0 +1,5 @@
+figure,panel,plot_title,csv_path,source_table,row_count,scope,notes
+Fig. 2,b,Final Tier-A source composition,fig2b_source_composition.csv,data/source_composition.csv,5,"Tier-A kept after tight deduplication; N=3,524,185",
+Fig. 2,c,Element prevalence in the frozen test split,fig2c_element_prevalence.csv,data/element_prevalence.csv,118,"Complete Tier-A test scan; N=33,944; no sampling",
+Fig. 2,d,Sites per unit cell,fig2d_n_sites_distribution.csv,data/n_sites_distribution.csv; data/dataset_summary.json,128,"Complete Tier-A test scan; N=33,944; n_sites=1–128",
+Fig. 2,e,Crystal-system coverage,fig2e_crystal_system_distribution.csv,data/crystal_system_distribution.csv,7,"Complete Tier-A test scan; N=33,944",

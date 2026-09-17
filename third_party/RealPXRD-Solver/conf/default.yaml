@@ -1,0 +1,19 @@
+expname: pxrd
+
+defaults:
+  - data: v241113
+  - model: flow
+  - logging: default
+  - optim: default
+
+
+hydra:
+  run:
+    dir: ${output}
+
+core:
+  version: 1.0
+  tags:
+    - ${now:%Y-%m-%d}
+
+output: {your output path}

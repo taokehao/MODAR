@@ -1,0 +1,6 @@
+pool_id,population,condition,condition_label,lattice,N,baseline_T1,refined_T1,delta_T1,baseline_T20,refined_T20,delta_T20,refine_top_m
+refine_base_free_frozen_candidates,base,pxrd_xrf,PXRD + XRF,free,500,75.2,79.2,4.0,94.0,94.0,0.0,25
+refine_base_free_frozen_candidates,base,pxrd_neutron_xrf,PXRD + ND + XRF,free,500,78.6,82.2,3.6,93.6,93.2,-0.4,25
+refine_base_free_frozen_candidates,base,pxrd_neutron_xrf_xps,PXRD + ND + XRF + XPS,free,500,76.8,79.6,2.8,93.0,93.2,0.2,25
+refine_base_free_frozen_candidates,base,pxrd_formula,Formula reference,free,500,78.6,81.4,2.8,94.8,94.6,-0.2,25
+refine_bigcell_free_frozen_candidates,bigcell,pxrd_neutron_xrf,PXRD + ND + XRF,free,500,59.4,60.8,1.4,67.0,67.0,0.0,25

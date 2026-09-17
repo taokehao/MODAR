@@ -1,0 +1,4 @@
+pool_id,condition,condition_label,lattice,N,baseline_policy,baseline_sigma,baseline_shift_max,baseline_T1,deploy_policy,deploy_sigma,deploy_shift_max,deploy_T1,delta_T1
+noisy_base_ladder_frozen_candidates,pxrd_xrf,PXRD + XRF,free,500,baseline peaks σ=0.25,0.25,0.00,73.0,deploy peaks σ=0.40 ±0.20°,0.40,0.20,75.8,2.8
+noisy_base_ladder_frozen_candidates,pxrd_neutron_xrf,PXRD + ND + XRF,free,500,baseline peaks σ=0.25,0.25,0.00,75.6,deploy peaks σ=0.40 ±0.20°,0.40,0.20,78.4,2.8
+noisy_base_ladder_frozen_candidates,pxrd_formula,Formula reference,free,500,baseline peaks σ=0.25,0.25,0.00,78.0,deploy peaks σ=0.40 ±0.20°,0.40,0.20,78.4,0.4

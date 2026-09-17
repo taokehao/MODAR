@@ -1,0 +1,31 @@
+cohort,lattice,n,method,input,top_k,match_rate_percent,source_artifact
+Same 500 large-cell subset,Lattice-free,500,Base multimodal,PXRD + ND + XRF,1,53.000000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base multimodal,PXRD + ND + XRF,5,57.600000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base multimodal,PXRD + ND + XRF,10,59.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base multimodal,PXRD + ND + XRF,20,60.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base multimodal,PXRD + ND + XRF,50,61.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Large-cell specialist,PXRD + ND + XRF,1,66.400000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Large-cell specialist,PXRD + ND + XRF,5,72.000000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Large-cell specialist,PXRD + ND + XRF,10,73.600000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Large-cell specialist,PXRD + ND + XRF,20,74.400000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Large-cell specialist,PXRD + ND + XRF,50,75.600000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base formula reference,PXRD + formula,1,58.400000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base formula reference,PXRD + formula,5,64.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base formula reference,PXRD + formula,10,64.800000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base formula reference,PXRD + formula,20,65.800000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Lattice-free,500,Base formula reference,PXRD + formula,50,67.600000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base multimodal,PXRD + ND + XRF,1,61.000000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base multimodal,PXRD + ND + XRF,5,66.000000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base multimodal,PXRD + ND + XRF,10,67.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base multimodal,PXRD + ND + XRF,20,67.600000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base multimodal,PXRD + ND + XRF,50,68.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Large-cell specialist,PXRD + ND + XRF,1,72.600000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Large-cell specialist,PXRD + ND + XRF,5,75.600000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Large-cell specialist,PXRD + ND + XRF,10,76.800000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Large-cell specialist,PXRD + ND + XRF,20,78.400000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Large-cell specialist,PXRD + ND + XRF,50,79.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base formula reference,PXRD + formula,1,61.000000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base formula reference,PXRD + formula,5,64.800000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base formula reference,PXRD + formula,10,66.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base formula reference,PXRD + formula,20,67.200000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json
+Same 500 large-cell subset,Known lattice,500,Base formula reference,PXRD + formula,50,68.400000,crystal_language/eval_results/bigcell_ab/oracle_same_subset_comparison.json

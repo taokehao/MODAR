@@ -1,0 +1,5 @@
+lattice_key,lattice_label,rank,metric,multimodal_percent,formula_reference_percent,multimodal_minus_reference_pp,multimodal_minus_pxrd_pp,n_records,n_candidates
+lattice_free,Lattice-free,1,Top-1,83.994226,85.891468,-1.897242,80.229201,33944,100
+lattice_free,Lattice-free,20,Top-20,91.474193,92.976667,-1.502474,76.249116,33944,100
+known_lattice,Known lattice,1,Top-1,90.378270,89.541598,0.836672,83.275395,33944,100
+known_lattice,Known lattice,20,Top-20,93.636578,93.869314,-0.232736,68.886990,33944,100

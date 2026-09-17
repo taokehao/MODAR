@@ -1,0 +1,15 @@
+system_order,lattice_order,crystal_system,lattice_mode,n,pxrd_top1_pct,neutron_gain_pp
+0,0,triclinic,Lattice-free,129,0.0,0.0
+1,0,monoclinic,Lattice-free,2049,2.4402,1.6105
+2,0,orthorhombic,Lattice-free,2459,2.684,4.0667
+3,0,tetragonal,Lattice-free,3125,5.952,5.056
+4,0,trigonal,Lattice-free,1117,4.6553,5.5506
+5,0,hexagonal,Lattice-free,499,7.014,10.02
+6,0,cubic,Lattice-free,622,6.9132,9.3248
+0,1,triclinic,Known lattice,129,1.5504,5.4264
+1,1,monoclinic,Known lattice,2049,6.3446,6.6374
+2,1,orthorhombic,Known lattice,2459,9.1907,7.8894
+3,1,tetragonal,Known lattice,3125,9.44,9.728
+4,1,trigonal,Known lattice,1117,8.863,9.0421
+5,1,hexagonal,Known lattice,499,11.2224,15.4309
+6,1,cubic,Known lattice,622,7.717,11.8971

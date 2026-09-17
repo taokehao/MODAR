@@ -1,0 +1,3 @@
+size_bin,n_train,share_percent,routed_model,provenance
+<=20,3093529,89.506603,Base model,总体实施方案.md §8.10.1 (>20 count and routing); §8.7.1 (total train count)
+>20,362673,10.493397,Large-cell specialist,总体实施方案.md §8.10.1 (>20 count and routing); §8.7.1 (total train count)

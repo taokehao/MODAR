@@ -1,0 +1,41 @@
+cohort,lattice,size_bin,n,method,top_k,match_rate_percent,source_artifact
+Full test size bin,Lattice-free,<=20,30159,Base multimodal,1,87.585795,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base multimodal,5,92.393647,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base multimodal,10,93.849266,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base multimodal,20,94.867204,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base multimodal,50,95.699460,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base multimodal,1,55.376486,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base multimodal,5,61.638045,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base multimodal,10,63.328930,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base multimodal,20,64.438573,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base multimodal,50,65.548217,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base formula reference,1,89.376306,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base formula reference,5,93.852581,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base formula reference,10,95.132465,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base formula reference,20,95.944826,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,<=20,30159,Base formula reference,50,96.670977,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base formula reference,1,58.124174,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base formula reference,5,65.944518,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base formula reference,10,68.137384,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base formula reference,20,69.326288,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Lattice-free,>20,3785,Base formula reference,50,70.118890,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base multimodal,1,93.952054,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base multimodal,5,95.772406,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base multimodal,10,96.259823,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base multimodal,20,96.704135,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base multimodal,50,97.108657,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base multimodal,1,61.902246,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base multimodal,5,67.582563,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base multimodal,10,68.401585,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base multimodal,20,69.194188,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base multimodal,50,69.511229,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base formula reference,1,93.070062,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base formula reference,5,95.686196,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base formula reference,10,96.332770,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base formula reference,20,96.843397,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,<=20,30159,Base formula reference,50,97.244604,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base formula reference,1,61.426684,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base formula reference,5,67.476882,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base formula reference,10,69.114927,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base formula reference,20,70.171731,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json
+Full test size bin,Known lattice,>20,3785,Base formula reference,50,70.779392,crystal_language/eval_results/ladder_tierA_s2_full_neutron/size_bins_20.json

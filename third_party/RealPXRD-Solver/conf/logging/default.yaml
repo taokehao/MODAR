@@ -1,0 +1,49 @@
+lr_monitor:
+  logging_interval: "step"
+  log_momentum: False
+
+early_stopping:
+  monitor: 'val_loss'
+  mode: 'min'
+  patience: 30
+  verbose: False
+
+# model_checkpoints:
+#   dirpath: ${output}
+#   filename: "model-{step}"
+#   save_top_k: -1
+#   every_n_train_steps: 20000
+model_checkpoints:
+  dirpath: ${output}
+  filename: "model-{epoch}"
+  save_top_k: -1
+  every_n_epochs: 50
+
+reproducibility:
+  determine: True
+  seed: 42
+
+
+wandb:
+  name: ${expname}
+  project: DP_try
+  entity: null
+  log_model: True
+  mode: 'offline'
+  group: ${expname}
+
+wandb_watch:
+  log: 'all'
+  log_freq: 500
+
+pl_trainer:
+  precision: bf16-mixed
+  max_epochs: 500
+  accumulate_grad_batches: 1
+  num_sanity_val_steps: 2
+  gradient_clip_val: 0.5
+  gradient_clip_algorithm: 'value'
+  profiler: 'simple'
+  accelerator: 'gpu'
+  devices: -1
+

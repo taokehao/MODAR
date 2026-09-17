@@ -1,0 +1,30 @@
+file_path: {your file_path}
+conventional: False
+gzip: True
+
+datamodule:
+  _target_: app.data.datamodule.DataModule
+  datasets:
+    train:
+      _target_: app.data.dataset.CrystDataset_pxrd
+      path: ${data.file_path}/pxrd_241119_train.lmdb
+      gzip: ${data.gzip}
+      conventional: ${data.conventional}
+      xrd_augment: True
+    valid:
+      _target_: app.data.dataset.CrystDataset_pxrd
+      path: ${data.file_path}/pxrd_241119_valid.lmdb
+      gzip: ${data.gzip}
+      conventional: ${data.conventional}
+      xrd_augment: False
+    test:
+      _target_: app.data.dataset.CrystDataset_pxrd
+      path: ${data.file_path}/pxrd_241119_test.lmdb
+      gzip: ${data.gzip}
+      conventional: ${data.conventional}
+      xrd_augment: False
+  num_workers: 4
+  batch_size:
+    train: 64
+    valid: 64
+    test: 64

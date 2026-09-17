@@ -1,0 +1,11 @@
+condition_order,condition_key,condition_label,rank,success_rate_percent,composition_rate_percent,n_records,n_candidates,metric
+0,pxrd,PXRD,1,3.765025,24.781994,33944,100,topk_rerank
+0,pxrd,PXRD,20,15.225077,24.781994,33944,100,topk_rerank
+1,pxrd_neutron,PXRD + ND,1,7.845275,31.560806,33944,100,topk_rerank
+1,pxrd_neutron,PXRD + ND,20,21.529578,31.560806,33944,100,topk_rerank
+2,pxrd_xrf,PXRD + XRF,1,83.248881,98.889347,33944,100,topk_rerank
+2,pxrd_xrf,PXRD + XRF,20,91.376974,98.889347,33944,100,topk_rerank
+3,pxrd_neutron_xrf,PXRD + ND + XRF,1,83.994226,98.859887,33944,100,topk_rerank
+3,pxrd_neutron_xrf,PXRD + ND + XRF,20,91.474193,98.859887,33944,100,topk_rerank
+4,pxrd_formula,Formula reference,1,85.891468,100.000000,33944,100,topk_rerank
+4,pxrd_formula,Formula reference,20,92.976667,100.000000,33944,100,topk_rerank

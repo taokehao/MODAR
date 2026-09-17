@@ -1,0 +1,25 @@
+lattice,condition,source,n,top1
+Lattice-free,PXRD,COD,56,0.0
+Lattice-free,PXRD,opXRD,281,0.0
+Lattice-free,PXRD + ND,COD,56,0.0
+Lattice-free,PXRD + ND,opXRD,281,0.0
+Lattice-free,PXRD + XRF,COD,56,3.5714285714285716
+Lattice-free,PXRD + XRF,opXRD,281,1.7793594306049823
+Lattice-free,PXRD + ND + XRF,COD,56,5.357142857142857
+Lattice-free,PXRD + ND + XRF,opXRD,281,2.1352313167259784
+Lattice-free,PXRD + ND + XRF + XPS,COD,56,7.142857142857143
+Lattice-free,PXRD + ND + XRF + XPS,opXRD,281,1.4234875444839858
+Lattice-free,Formula,COD,56,5.357142857142857
+Lattice-free,Formula,opXRD,281,3.9145907473309607
+Known lattice,PXRD,COD,56,0.0
+Known lattice,PXRD,opXRD,281,0.0
+Known lattice,PXRD + ND,COD,56,0.0
+Known lattice,PXRD + ND,opXRD,281,0.0
+Known lattice,PXRD + XRF,COD,56,14.285714285714286
+Known lattice,PXRD + XRF,opXRD,281,5.693950177935943
+Known lattice,PXRD + ND + XRF,COD,56,19.642857142857142
+Known lattice,PXRD + ND + XRF,opXRD,281,6.405693950177936
+Known lattice,PXRD + ND + XRF + XPS,COD,56,19.642857142857142
+Known lattice,PXRD + ND + XRF + XPS,opXRD,281,6.049822064056939
+Known lattice,Formula,COD,56,19.642857142857142
+Known lattice,Formula,opXRD,281,7.117437722419929

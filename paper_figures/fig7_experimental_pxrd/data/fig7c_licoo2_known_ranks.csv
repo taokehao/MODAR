@@ -1,0 +1,9 @@
+model,model_label,condition,condition_label,best_k,bucket,t1
+noisy,Noisy-exp,pxrd,PXRD,2,T10,0
+noisy,Noisy-exp,pxrd_neutron,PXRD + ND,1,T1,1
+noisy,Noisy-exp,pxrd_xrf,PXRD + XRF,1,T1,1
+noisy,Noisy-exp,pxrd_neutron_xrf,PXRD + ND + XRF,1,T1,1
+clean,Clean,pxrd,PXRD,,miss,0
+clean,Clean,pxrd_neutron,PXRD + ND,,miss,0
+clean,Clean,pxrd_xrf,PXRD + XRF,,miss,0
+clean,Clean,pxrd_neutron_xrf,PXRD + ND + XRF,,miss,0

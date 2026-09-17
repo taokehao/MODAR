@@ -1,0 +1,11 @@
+sample_order,id,display_name,family_key,family_label,formula,n_sites,pxrd_cif_cosine,role,noisy_solved
+1,LiCoO2,LiCoO2,layered_oxide,Layered oxide,LiCoO2,12,0.931,solved,1
+2,NaCoO2,NaCoO2,layered_oxide,Layered oxide,NaCoO2,12,0.087,solved,1
+3,BiClO,BiOCl,halide,Halide,BiClO,6,0.586,solved,1
+4,Nb3Cl8,Nb3Cl8,halide,Halide,Nb3Cl8,22,0.74,solved,1
+5,1T_TaS2,1T-TaS2,tmd,TMD,TaS2,3,0.048,solved,1
+6,2M_WS2,2M-WS2,tmd,TMD,WS2,12,0.82,held_out_unsolved,0
+7,Li2CO3,Li2CO3,li_salt,Li salt,Li2CO3,24,0.483,held_out_unsolved,0
+8,Li2SO4,Li2SO4,li_salt,Li salt,Li2SO4,28,0.84,held_out_unsolved,0
+9,Na3PS4,Na3PS4,thiophosphate,Thiophosphate,Na3PS4,16,0.328,solved,1
+10,SiS2,SiS2,binary_sulfide,Binary sulfide,SiS2,12,0.123,solved,1

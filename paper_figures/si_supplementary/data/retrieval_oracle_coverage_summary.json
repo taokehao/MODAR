@@ -1,0 +1,8 @@
+{
+  "n_queries": 337,
+  "formula_present_in_library": 118,
+  "formula_present_rate": 0.35014836795252224,
+  "structure_present_in_library": 97,
+  "structure_present_rate": 0.2878338278931751,
+  "max_per_formula_checked": 200
+}

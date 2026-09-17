@@ -1,0 +1,5 @@
+condition_key,condition_label,n_all,top1_all,top20_all,n_le20,top1_le20,top20_le20
+pxrd,PXRD,337,0,1,122,0,1
+pxrd_neutron,PXRD + ND,337,0,17,122,0,16
+pxrd_xrf,PXRD + XRF,337,70,89,122,53,67
+pxrd_neutron_xrf,PXRD + ND + XRF,337,75,86,122,59,65
