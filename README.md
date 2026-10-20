@@ -15,8 +15,6 @@ and will be published separately on Hugging Face.
 ```text
 crystal_language/     model, tokenizer, generate, train, Top-k eval
 scripts/              Slurm + local inference / refine / RPS comparison
-paper/                manuscript drafts and locked figure notes
-paper_figures/        Nature-width figure packages (scripts + source CSVs)
 data_prep/official_multisource/   data-build scripts (not the raw dumps)
 ```
 
@@ -55,17 +53,3 @@ python crystal_language/train.py \
   --spectra-encoder di --cond-adanorm --coord-value-emb \
   --noise-profile experimental
 ```
-
-## Figures
-
-```bash
-python paper_figures/fig7_experimental_pxrd/prepare_data.py
-python paper_figures/fig7_experimental_pxrd/plot_figure.py
-python paper_figures/si_supplementary/prepare_public337.py
-python paper_figures/si_supplementary/plot_public337_si.py
-```
-
-## Manuscript
-
-English drafts and locked claims: `paper/`. The Chinese project plan is
-`总体实施方案.md`.
