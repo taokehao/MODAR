@@ -1,5 +1,0 @@
-lattice,condition_key,condition_label,n,top1,top1_ci_low,top1_ci_high,top20,top20_ci_low,top20_ci_high
-Known lattice,pxrd_neutron_xrf,+ND+XRF,337,75,60,90,86,70,102
-Known lattice,pxrd_neutron_xrf_xps,+ND+XRF+XPS,337,74,59,89,84,69,100
-Lattice-free,pxrd_neutron_xrf,+ND+XRF,337,33,23,44,48,36,61
-Lattice-free,pxrd_neutron_xrf_xps,+ND+XRF+XPS,337,36,25,47,54,41,67

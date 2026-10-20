@@ -1,7 +1,0 @@
-pool_id,condition,condition_label,lattice,lattice_label,N_clean,N_noisy,clean_T20,noisy_T20,delta_T20
-noisy_robustness_summary_ladder,pxrd_xrf,PXRD + XRF,free,Lattice-free,500,500,97.4,93.8,-3.6
-noisy_robustness_summary_ladder,pxrd_neutron_xrf,PXRD + ND + XRF,free,Lattice-free,500,500,97.2,92.4,-4.8
-noisy_robustness_summary_ladder,pxrd_formula,Formula reference,free,Lattice-free,500,500,97.8,93.8,-4.0
-noisy_robustness_summary_ladder,pxrd_xrf,PXRD + XRF,known,Known lattice,500,500,98.4,98.4,0.0
-noisy_robustness_summary_ladder,pxrd_neutron_xrf,PXRD + ND + XRF,known,Known lattice,500,500,98.6,97.8,-0.8
-noisy_robustness_summary_ladder,pxrd_formula,Formula reference,known,Known lattice,500,500,98.4,97.8,-0.6

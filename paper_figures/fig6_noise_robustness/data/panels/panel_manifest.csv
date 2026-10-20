@@ -1,6 +1,0 @@
-figure,panel,plot_title,csv_path,source_table,row_count,scope,notes
-Fig. 6,b,Clean versus noisy Top-1,fig6b_clean_vs_noisy_t1.csv,data/clean_noisy_high_information.csv,6,N=500/config; clean-trained+clean input versus noise-FT+noisy input,"Synthetic experimental perturbations, not real measured data"
-Fig. 6,c,Clean versus noisy Top-20,fig6c_clean_vs_noisy_t20.csv,data/clean_noisy_high_information.csv,6,N=500/config; clean-trained+clean input versus noise-FT+noisy input,"Synthetic experimental perturbations, not real measured data"
-Fig. 6,d,Noise-aware reranking,fig6d_noise_aware_reranking.csv,data/deploy_rerank_free.csv,3,Frozen noisy lattice-free candidate pool; N=500/config,Baseline and deploy values are paired only within this pool
-Fig. 6,e,Rietveld-lite reranking,fig6e_rietveld_lite_reranking.csv,data/refinement_free.csv,5,Within each frozen refinement pool; noisy lattice-free; N=500/config,Base and big-cell rows use separate candidate pools
-Fig. 6,f,Big-cell clean/noisy summary,fig6f_bigcell_clean_vs_noisy.csv,data/bigcell_clean_noisy.csv,2,Big-cell specialist; N=500/config; Top-1 and Top-20,"Synthetic experimental perturbations, not real measured data"

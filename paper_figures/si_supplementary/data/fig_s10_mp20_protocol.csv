@@ -1,7 +1,0 @@
-protocol,method,n_note,top1
-lattice-free,PXRDGen,full 9046,68.68
-lattice-free,Uni-3DAR,full 9046,75.08
-lattice-free,This work SFT,first 500,83.2
-known-lattice,PXRDGen,full 9046,75.32
-known-lattice,XRDSol,full 9046,82.3
-known-lattice,This work SFT,first 500,87.2

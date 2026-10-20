@@ -1,3 +1,0 @@
-pool_id,condition,condition_label,lattice,lattice_label,N,clean_base_T1,clean_bigcell_T1,noisy_bigcell_T1,delta_T1,clean_bigcell_T20,noisy_bigcell_T20,delta_T20
-noisy_robustness_summary_bigcell,pxrd_neutron_xrf,PXRD + ND + XRF,free,Lattice-free,500,53.0,66.4,57.0,-9.4,74.4,66.6,-7.8
-noisy_robustness_summary_bigcell,pxrd_neutron_xrf,PXRD + ND + XRF,known,Known lattice,500,61.0,72.6,65.8,-6.8,78.4,75.8,-2.6

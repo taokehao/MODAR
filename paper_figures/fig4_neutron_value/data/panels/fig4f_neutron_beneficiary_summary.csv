@@ -1,9 +1,0 @@
-summary_section,lattice_mode,rank,crystal_system,n,estimate_pp,ci_low_pp,ci_high_pp,interpretation
-largest_crystal_system_gain,Lattice-free,1,hexagonal,499,10.02,,,descriptive subgroup point estimate
-largest_crystal_system_gain,Lattice-free,2,cubic,622,9.3248,,,descriptive subgroup point estimate
-largest_crystal_system_gain,Lattice-free,3,trigonal,1117,5.5506,,,descriptive subgroup point estimate
-largest_crystal_system_gain,Known lattice,1,hexagonal,499,15.4309,,,descriptive subgroup point estimate
-largest_crystal_system_gain,Known lattice,2,cubic,622,11.8971,,,descriptive subgroup point estimate
-largest_crystal_system_gain,Known lattice,3,tetragonal,3125,9.728,,,descriptive subgroup point estimate
-aggregate_nd_given_xrf,Lattice-free,,All aligned samples,10000,0.37,-0.07,0.8202,CI crosses zero
-aggregate_nd_given_xrf,Known lattice,,All aligned samples,10000,0.68,0.4,0.97,significant positive

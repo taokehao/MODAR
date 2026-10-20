@@ -1,6 +1,0 @@
-figure,panel,plot_title,csv_path,source_table,row_count,scope,notes
-Fig. 3,b,Lattice-free retrieval,fig3b_lattice_free_top1_top20.csv,data/figure_3_source_data.csv,10,"Full test N=33,944; reranked N=100 candidates/sample",
-Fig. 3,c,Known-lattice retrieval,fig3c_known_lattice_top1_top20.csv,data/figure_3_source_data.csv,10,"Full test N=33,944; reranked N=100 candidates/sample",
-Fig. 3,d,Composition recovery versus reranked Top-1,fig3d_composition_vs_top1.csv,data/figure_3_source_data.csv,10,"Full test N=33,944; both lattice settings",
-Fig. 3,e,Top-k retrieval,fig3e_topk_multimodal_vs_formula_reference.csv,data/figure_3_source_data.csv,20,"Full test N=33,944; reranked Top-1/5/10/20/50",
-Fig. 3,f,Formula-reference gap,fig3f_formula_reference_gap.csv,data/figure_3_source_data.csv,4,"Full test N=33,944; gaps are percentage-point differences",

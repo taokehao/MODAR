@@ -1,5 +1,0 @@
-gain_order,id,display_name,lattice,lattice_label,comparison,baseline_condition,baseline_label,baseline_best_k,nd_condition,nd_label,nd_best_k,note
-1,LiCoO2,LiCoO2,known,Known lattice,ND vs PXRD,pxrd,PXRD,2,pxrd_neutron,PXRD + ND,1,ND promotes experimental PXRD from rank 2 to Top-1; no XRF required
-2,LiCoO2,LiCoO2,free,Lattice-free,ND vs PXRD,pxrd,PXRD,,pxrd_neutron,PXRD + ND,2,Only spectroscopic condition that recovers LiCoO2 without composition
-3,NaCoO2,NaCoO2,known,Known lattice,ND given XRF,pxrd_xrf,PXRD + XRF,15,pxrd_neutron_xrf,PXRD + ND + XRF,1,ND given XRF lifts NaCoO2 from rank 15 to Top-1
-4,SiS2,SiS2,known,Known lattice,ND given XRF,pxrd_xrf,PXRD + XRF,,pxrd_neutron_xrf,PXRD + ND + XRF,9,ND given XRF unlocks SiS2 (XRF alone is composition-only)

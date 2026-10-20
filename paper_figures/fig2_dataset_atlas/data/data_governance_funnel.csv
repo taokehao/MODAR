@@ -1,5 +1,0 @@
-step,stage,count,display_count,retained_vs_raw_pct,retained_vs_previous_pct
-1,Unified multimodal records,10207687,10.21M,100.000,100.000
-2,Tier-A quality filter,4127590,4.13M,40.436,40.436
-3,After tight deduplication,3524185,3.52M,34.525,85.381
-4,Frozen train/valid/test split,3524185,3.52M,34.525,100.000
