@@ -45,7 +45,7 @@ from crystal_language.decode import (  # noqa: E402
 )
 from crystal_language.generate import build_prompt, build_prompt_v2  # noqa: E402
 from crystal_language.model import CrystalLM, CrystalSeq2SeqLM, build_model  # noqa: E402
-from crystal_language.noise import rasterize_noisy_spectrum  # noqa: E402
+from crystal_language.noise import noisy_peaks_to_di, rasterize_noisy_spectrum  # noqa: E402
 from crystal_language.rerank import (  # noqa: E402
     peaks_from_condition_tokens,
     rerank_candidates,
@@ -159,6 +159,52 @@ def topk_best_rmsd(candidates: list[dict[str, Any]], k: int) -> float | None:
     return min(vals) if vals else None
 
 
+def prepare_spectra(
+    record: dict[str, Any],
+    used_spectra: dict[str, bool],
+    model_cfg: ModelConfig,
+    data_cfg: dict[str, Any],
+    *,
+    rng: random.Random,
+    noise_profile: str,
+    device: str,
+) -> dict[str, torch.Tensor | None]:
+    """Prepare each selected spectrum in the checkpoint encoder's input format."""
+    spec = record.get("spectra") or {}
+    tensors: dict[str, torch.Tensor | None] = {}
+    for name in ("pxrd", "neutron"):
+        if not used_spectra.get(name):
+            tensors[name] = None
+            continue
+        xs = spec.get(f"{name}_x") or []
+        ys = spec.get(f"{name}_y") or []
+        if model_cfg.spectra_encoder == "di":
+            wavelength = float(data_cfg.get("spectra_wavelength", 1.54184))
+            # Match the dataset's convention for unaligned experimental PXRD.
+            experimental = record.get("experimental") or {}
+            if name == "pxrd" and not experimental.get("q_aligned", True):
+                if experimental.get("wavelength_A"):
+                    wavelength = float(experimental["wavelength_A"])
+            vec = noisy_peaks_to_di(
+                xs,
+                ys,
+                name=name,
+                rng=rng,
+                wavelength=wavelength,
+                max_peaks=model_cfg.spectra_max_peaks,
+                profile=noise_profile,
+            )
+        elif noise_profile != "none":
+            # Preserve the existing CNN preprocessing and random-number order.
+            vec = rasterize_noisy_spectrum(
+                xs, ys, name=name, rng=rng, profile=noise_profile
+            )
+        else:
+            vec = rasterize_spectrum(xs, ys)
+        tensors[name] = vec.to(device)
+    return tensors
+
+
 def generate_candidates(
     model: CrystalLM,
     tokenizer: Tokenizer,
@@ -207,7 +253,7 @@ def generate_candidates(
             prompt_embeds = model.embed_prompt(prompt_ids, spectra)
             if getattr(model, "cond_adanorm", False):
                 batched = {
-                    name: (vec.view(1, -1) if vec is not None else None)
+                    name: (vec.unsqueeze(0) if vec is not None else None)
                     for name, vec in spectra.items()
                 }
                 cond = model.encode_condition(batched)
@@ -480,21 +526,15 @@ def main() -> int:
                     rng=noise_rng,
                     noise_profile=args.noise_profile,
                 )
-                spec = record.get("spectra") or {}
-                spectra_tensors = {}
-                for name in ("pxrd", "neutron"):
-                    if used_spectra.get(name):
-                        xs = spec.get(f"{name}_x") or []
-                        ys = spec.get(f"{name}_y") or []
-                        if args.noise_profile != "none":
-                            vec = rasterize_noisy_spectrum(
-                                xs, ys, name=name, rng=noise_rng, profile=args.noise_profile
-                            )
-                        else:
-                            vec = rasterize_spectrum(xs, ys)
-                        spectra_tensors[name] = vec.to(device)
-                    else:
-                        spectra_tensors[name] = None
+                spectra_tensors = prepare_spectra(
+                    record,
+                    used_spectra,
+                    model_cfg,
+                    data_cfg_dump,
+                    rng=noise_rng,
+                    noise_profile=args.noise_profile,
+                    device=device,
+                )
             else:
                 prompt = build_prompt(
                     record,

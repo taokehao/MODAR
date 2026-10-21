@@ -1,4 +1,5 @@
-torch>=2.1
-numpy
-pymatgen
+torch>=2.6,<2.7
+numpy>=1.26
+pymatgen==2025.3.10
 matplotlib
+huggingface_hub>=1.0,<3
